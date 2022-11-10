@@ -1,0 +1,120 @@
+@import url('http://fonts.cdnfonts.com/css/orange-juice-4');
+@import url("https://fonts.googleapis.com/css?family=Playfair Display");
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+h1{
+    font-size:  3em;
+    font-family: 'Orange Juice', sans-serif;
+}
+h3{
+    font-size:  2em;
+    font-family: 'Playfair Display';
+    font-style: italic;
+}
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(images/low-poly-grid-haikei.svg);
+    background-size: cover;
+}
+
+img{
+    margin: 20px;
+    border-radius: 999999px;
+    width: 286px;
+    border: solid 2px black;
+    text-align: center;
+    align-items: center;
+}
+
+.social-card{
+    width: 60%;
+    height: min-content;
+    text-align: center;
+    padding: 40px;
+    background-color: white;
+    border-radius: 24px;
+    box-shadow: 0 0 10px black;
+}
+ul{
+    margin-top: 10px;
+    list-style: none;
+}
+a{
+    font-size: 2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+li{
+    margin-top: 20px;
+}
+.tiktok{
+    color: rgb(214, 12, 12);
+    border: solid rgb(214, 12, 12);
+    border-radius: 99999px;
+    padding: 3px 8px;
+    transition: 0.3s;
+}
+.twitter{
+    color: rgb(19, 144, 228);
+    border: solid rgb(19, 144, 228);
+    border-radius: 99999px;
+    padding: 3px 8px;
+    transition: 0.3s;
+}
+.instagram{
+    color: rgb(231, 156, 15);
+    border: solid rgb(231, 156, 15);
+    border-radius: 99999px;
+    padding: 3px 8px;
+    transition: 0.3s;
+}
+.github{
+    color: rgb(25, 199, 34);
+    border: solid rgb(25, 199, 34);
+    border-radius: 99999px;
+    padding: 3px 8px;
+    transition: 0.3s;
+}
+
+.tiktok:hover{
+    COLOR: WHITE;
+    background-color: rgb(214, 12, 12);
+}
+
+
+.twitter:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(19, 144, 228);
+}
+
+.instagram:hover{
+    color: white;
+    background-color: rgb(231, 156, 15);
+}
+
+.github:hover{
+    color: white;
+    background-color: rgb(25, 199, 34);
+}
+
+@media only screen and (max-width: 768px) {
+    img{
+        width: 140px;
+        margin: 10px 0 10px 0;
+    }
+    a{
+        font-size: 1em;
+    }
+    h1{
+        font-size:  2em;
+    }
+    h3{
+        font-size: 1em;
+    }
+  }
